@@ -3,7 +3,7 @@ package com.snap.app.common.web;
 import java.util.Date;
 
 public class Customer{
-	
+	//Testing
 	public long customerID;
 	public String name;
 	public String address;
