@@ -21,6 +21,7 @@ import javax.sql.DataSource;
 @SessionScoped
 public class CustomerBean implements Serializable {
 
+	//Branch Test
 	private static final long serialVersionUID = 1L;
 	// resource injection
 	@Resource(name = "jdbc/snapdragondb")
