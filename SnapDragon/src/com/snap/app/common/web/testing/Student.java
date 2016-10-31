@@ -9,6 +9,7 @@ public class Student implements Serializable {
 
 	private Long id;
 	private String name;
+	private String test;
 
 	public Student() {}
 	public Student(Long id, String name) {
@@ -29,5 +30,11 @@ public class Student implements Serializable {
 	public void restore(Student student) {
 		this.id = student.getId();
 		this.name = student.getName();
+	}
+	public String getTest() {
+		return test;
+	}
+	public void setTest(String test) {
+		this.test = test;
 	}
 }
