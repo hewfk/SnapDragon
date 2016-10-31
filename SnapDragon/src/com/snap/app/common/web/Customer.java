@@ -3,7 +3,7 @@ package com.snap.app.common.web;
 import java.util.Date;
 
 public class Customer{
-	//Testing
+	//Testing branch1 merge
 	public long customerID;
 	public String name;
 	public String address;
